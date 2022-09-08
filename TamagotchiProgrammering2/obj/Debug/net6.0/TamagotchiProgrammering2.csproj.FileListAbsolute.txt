@@ -1,0 +1,15 @@
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\bin\Debug\net6.0\TamagotchiProgrammering2.exe
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\bin\Debug\net6.0\TamagotchiProgrammering2.deps.json
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\bin\Debug\net6.0\TamagotchiProgrammering2.runtimeconfig.json
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\bin\Debug\net6.0\TamagotchiProgrammering2.dll
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\bin\Debug\net6.0\TamagotchiProgrammering2.pdb
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\obj\Debug\net6.0\TamagotchiProgrammering2.csproj.AssemblyReference.cache
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\obj\Debug\net6.0\TamagotchiProgrammering2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\obj\Debug\net6.0\TamagotchiProgrammering2.AssemblyInfoInputs.cache
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\obj\Debug\net6.0\TamagotchiProgrammering2.AssemblyInfo.cs
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\obj\Debug\net6.0\TamagotchiProgrammering2.csproj.CoreCompileInputs.cache
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\obj\Debug\net6.0\TamagotchiProgrammering2.dll
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\obj\Debug\net6.0\refint\TamagotchiProgrammering2.dll
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\obj\Debug\net6.0\TamagotchiProgrammering2.pdb
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\obj\Debug\net6.0\TamagotchiProgrammering2.genruntimeconfig.cache
+C:\Users\aslund.alexander\OneDrive\Dokument\TE20B Spel - Webb\Programmering 2\TamagotchiProgrammering2\TamagotchiProgrammering2\obj\Debug\net6.0\ref\TamagotchiProgrammering2.dll
