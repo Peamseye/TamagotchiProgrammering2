@@ -14,7 +14,10 @@ boredom--;
 }
 
 public void Feed(){
-hunger--;
+hunger-= 3;
+if (hunger < 0){
+hunger = 0;
+}
 Console.WriteLine($"You fed {name}.");
 }
 
@@ -27,14 +30,12 @@ public void Tick(){
  }
 }
 
-//public bool GetAlive(){
-  //  isAlive = true;
-//}
-
 public void PrintStats(){
-    Console.WriteLine($"{name} has {hunger} hunger and {boredom} boredom.");
+    Console.WriteLine($"{name} || {hunger} hunger || {boredom} boredom || {words} vocabulary.");
 }
 
-
+public bool GetAlive(){
+return isAlive;
+}
 
 }
