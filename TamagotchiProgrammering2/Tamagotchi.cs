@@ -31,7 +31,7 @@ public void Tick(){
 }
 
 public void PrintStats(){
-    Console.WriteLine($"{name} || {hunger} hunger || {boredom} boredom || {words} vocabulary.");
+    Console.WriteLine($"Name: {name} -|- {hunger} hunger -|- {boredom} boredom -|- Known vocabulary: {words}.");
 }
 
 public bool GetAlive(){
