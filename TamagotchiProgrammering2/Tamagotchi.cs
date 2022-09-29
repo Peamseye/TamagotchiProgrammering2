@@ -1,4 +1,5 @@
 using System;
+//using System.Collections.Generic;
 
 public class Tamagotchi{
 
@@ -11,12 +12,13 @@ public string name;
 
 public Tamagotchi()
 {
-isAlive = true;
 generator = new Random();
+isAlive = true;
 }
 
 private void ReduceBoredom(){
-boredom--;
+boredom-= 3;
+if (boredom < 0) {boredom = 0;}
 }
 
 public void Feed(){
@@ -40,6 +42,14 @@ public void Tick(){
     isAlive = false;
  }
 }
+
+public void Teach(string word)
+  {
+    Console.WriteLine($" {name} has learned: {word}");
+    words.Add(word);
+    ReduceBoredom();
+  }
+
 
 public void PrintStats(){
     Console.WriteLine($"Name: {name} -|- {hunger} hunger -|- {boredom} boredom -|- Known vocabulary: {words}.");
