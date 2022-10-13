@@ -1,5 +1,7 @@
 ﻿using System;
 
+Console.WriteLine("TAMAGOTCHI");
+
 Tamagotchi T1 = new Tamagotchi();
 
 Console.WriteLine("What will your TAMAGOTCHI be called?");
@@ -7,9 +9,11 @@ T1.name = Console.ReadLine();
 
 Console.WriteLine($"Your TAMAGOTCHI is now named {T1.name}");
 
-while (T1.GetAlive() == true){
+while (T1.GetAlive() == true)
+{
     Console.Clear();
     T1.PrintStats();
+    Console.WriteLine();
     Console.WriteLine("What activity do you want to do?");
     Console.WriteLine($"(1) Teach {T1.name} a new word!");
     Console.WriteLine($"(2) Talk to {T1.name}!");
@@ -39,10 +43,7 @@ while (T1.GetAlive() == true){
   
 }
 
-
-
-
-
-T1.PrintStats();
+Console.WriteLine($"OH NO! {T1.name} is dead!");
+Console.WriteLine("Press ENTER to quit");
 
 Console.ReadLine();
