@@ -1,11 +1,11 @@
 using System;
-//using System.Collections.Generic;
+using System.Collections.Generic;
 
 public class Tamagotchi{
 
 private int hunger;
 private int boredom;
-private List<string> words = new List<string>() {"Test"};
+private List<string> words = new List<string>() {"Hi"};
 private bool isAlive;
 private Random generator;
 public string name;
@@ -30,17 +30,15 @@ if (hunger < 0){hunger = 0;}
 public void Hi()
   {
     int wordNum = generator.Next(words.Count);
-    ReduceBoredom();
     Console.WriteLine($"{name} says: {words[wordNum]}");
+    ReduceBoredom();
   }
 
 public void Tick(){
- hunger += 1;
- boredom += 1; 
+ hunger ++;
+ boredom ++; 
 
- if (hunger >= 10 || boredom >= 10){
-    isAlive = false;
- }
+ if (hunger > 10 || boredom > 10) {isAlive = false;}
 }
 
 public void Teach(string word)
