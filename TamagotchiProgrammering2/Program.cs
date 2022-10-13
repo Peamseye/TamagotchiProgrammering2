@@ -12,7 +12,34 @@ while (T1.GetAlive() == true){
     T1.PrintStats();
     Console.WriteLine("What activity do you want to do?");
     Console.WriteLine($"(1) Teach {T1.name} a new word!");
+    Console.WriteLine($"(2) Talk to {T1.name}!");
+    Console.WriteLine($"(3) Feed {T1.name}!");
+    Console.WriteLine($"(4) Skip!");
+
+     string doWhat = Console.ReadLine();
+  if (doWhat == "1")
+  {
+    Console.WriteLine("What word?");
+    string word = Console.ReadLine();
+    T1.Teach(word);
+  }
+  if (doWhat == "2")
+  {
+    T1.Hi();
+  }
+  if (doWhat == "3")
+  {
+    T1.Feed();
+  }
+  else
+  {
+    Console.WriteLine("Skipped!");
+  }
+  T1.Tick();
+  
 }
+
+
 
 
 
